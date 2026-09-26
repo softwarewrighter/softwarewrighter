@@ -19,7 +19,7 @@ repository, which is the question that was actually being asked.
 | Organisation | Mine | Forks | Total | What lives there |
 |---|---:|---:|---:|---|
 | [softwarewrighter](https://github.com/softwarewrighter) | 108 | 16 | 124 | The main account. Anything that has not earned its own organisation lives here, plus everything still on its way out. |
-| [sw-embed](https://github.com/sw-embed) | 47 | 1 | 48 | COR24 and its toolchains: the 24-bit RISC machine, its languages, its operating system, its browser demos. |
+| [sw-embed](https://github.com/sw-embed) | 47 | 1 | 48 | Software for embedded targets: operating systems, language ports and toolchains, target by target. COR24 is the first and most of it today; RISC-V is here too, with ESP32-xx, Lychee boards and ARM next. |
 | [sw-ml-study](https://github.com/sw-ml-study) | 25 | 10 | 35 | Machine learning studied by building it, including the sw-MLPL teaching language. |
 | [sw-vibe-coding](https://github.com/sw-vibe-coding) | 25 | 0 | 25 | Experimental languages and agent-built projects: where a language idea goes before it settles. |
 | [sw-comp-history](https://github.com/sw-comp-history) | 19 | 0 | 19 | Historic machines reimplemented: IBM 1130, IBM 390, RCA 1802. |
