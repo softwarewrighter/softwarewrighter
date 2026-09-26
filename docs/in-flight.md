@@ -5,30 +5,57 @@ graduates to an organisation once it is clearly one thing. This page is the
 ledger of that traffic, so a visitor who finds two copies of a repository knows
 which one is alive.
 
-Everything below is read from the GitHub API: names, descriptions, fork flags
-and push dates. Nothing is read from my machine, so what this page claims is
-what a visitor can check.
+Everything below is read from the GitHub API: names, descriptions, push dates,
+and each fork's parent -- because GitHub's fork flag says which button was
+pressed, not who wrote the code. Nothing is read from my machine, so every
+claim here is one a visitor can check.
 
-## Two copies, and which is live
+## Two copies of the same work
 
-These were moved by *forking into the organisation and leaving the original
-behind*, so GitHub marks the live copy as a fork and the abandoned copy as the
-source. Prefer the organisation copy. `Last push` is the only public evidence
-of which one is still being worked on, and where it disagrees with that advice
-the row says so.
+Work moved between accounts by forking, so both copies survive and GitHub
+marks the newer one as the fork. Ten pairs. Last-push dates are the only
+public evidence of which copy is still worked on, so that is what the table
+shows -- and in two pairs the copy left behind is the newer one, which is a
+real question rather than an oversight. The copy still being pushed is in
+bold.
 
-| Repository | In an organisation | In `softwarewrighter` | Last push |
-|---|---|---|---|
-| game-mcp-poc — A Proof of Concept game that provides an MCP server for AI Agent to play the game | [sw-game-dev](https://github.com/sw-game-dev/game-mcp-poc) (fork) | [softwarewrighter](https://github.com/softwarewrighter/game-mcp-poc) | the organisation copy |
-| rank-wav-rs — Rust CLI "personal software" tool to rank wav files from "best" to "worst" subjectively/algorithmically | [sw-cli-tools](https://github.com/sw-cli-tools/rank-wav-rs) | not there; the second copy is [sw-music-tools](https://github.com/sw-music-tools/rank-wav-rs) (fork) | 2026-03-07 |
-| sw-checklist — Rust CLI for AI Coding Agents to check if a project conforms to the Software Wrighter project checklist | [sw-vibe-coding](https://github.com/sw-vibe-coding/sw-checklist) (fork) | [softwarewrighter](https://github.com/softwarewrighter/sw-checklist) | the organisation copy |
-| sw-cli — Rust library for CLI common/shared code | [sw-cli-tools](https://github.com/sw-cli-tools/sw-cli) (fork) | [softwarewrighter](https://github.com/softwarewrighter/sw-cli) | the organisation copy |
-| sw-install — Rust CLI to install a Rust release binary (or debug binary) in a local bin dir on the path. | [sw-vibe-coding](https://github.com/sw-vibe-coding/sw-install) (fork) | [softwarewrighter](https://github.com/softwarewrighter/sw-install) | **the `softwarewrighter` copy (2026-03-22)** |
+| Work | One copy | The other |
+|---|---|---|
+| Rust library for CLI common/shared code | **[sw-cli-tools](https://github.com/sw-cli-tools/sw-cli) (2025-11-24)** | [softwarewrighter](https://github.com/softwarewrighter/sw-cli) (2025-11-24) |
+| Pascal for COR24 in C | **[sw-embed](https://github.com/sw-embed/sw-cor24-pascal) (2026-05-25)** | [softwarewrighter](https://github.com/softwarewrighter/p24c) (2026-03-29) |
+| p-code Virtual Machine for COR24 written in Assembler | **[sw-embed](https://github.com/sw-embed/sw-cor24-pcode) (2026-05-08)** | [softwarewrighter](https://github.com/softwarewrighter/pv24a) (2026-03-29) |
+| Web UI Debugger for p-code VM on COR24, in Rust | **[sw-embed](https://github.com/sw-embed/web-sw-cor24-pcode) (2026-06-16)** | [softwarewrighter](https://github.com/softwarewrighter/web-dv24r) (2026-03-28) |
+| A Proof of Concept game that provides an MCP server for AI Agent t | **[sw-game-dev](https://github.com/sw-game-dev/game-mcp-poc) (2025-11-21)** | [softwarewrighter](https://github.com/softwarewrighter/game-mcp-poc) (2025-11-20) |
+| Rust CLI "personal software" tool to rank wav files from "best" to | **[sw-music-tools](https://github.com/sw-music-tools/rank-wav-rs) (2026-03-07)** | [sw-cli-tools](https://github.com/sw-cli-tools/rank-wav-rs) (2026-03-07) |
+| Rust CLI for AI Coding Agents to check if a project conforms to th | **[sw-vibe-coding](https://github.com/sw-vibe-coding/sw-checklist) (2026-06-12)** | [softwarewrighter](https://github.com/softwarewrighter/sw-checklist) (2026-02-11) |
+| A CLI tool to generate documents proactively for coding agents to  | [sw-vibe-coding](https://github.com/sw-vibe-coding/sw-init) (2025-11-27) | **[softwarewrighter](https://github.com/softwarewrighter/proact) (2026-05-21)** |
+| Rust CLI to install a Rust release binary (or debug binary) in a l | [sw-vibe-coding](https://github.com/sw-vibe-coding/sw-install) (2025-12-27) | **[softwarewrighter](https://github.com/softwarewrighter/sw-install) (2026-03-22)** |
+| Rust CLI to ensure markdown files can be displayed properly | **[sw-vibe-coding](https://github.com/sw-vibe-coding/sw-markdown-checker) (2026-01-09)** | [softwarewrighter](https://github.com/softwarewrighter/markdown-checker) (2025-11-22) |
 
-`rank-wav-rs` is the odd one out: it never lived in `softwarewrighter`. The
-copy in [sw-cli-tools](https://github.com/sw-cli-tools/rank-wav-rs) is the
-original and the one in `sw-music-tools` is the fork, so that pair is a
-cross-organisation duplicate rather than a graduation.
+Where the names differ the pair is easy to miss: `sw-cor24-pascal` is `p24c`,
+`sw-cor24-pcode` is `pv24a`, `web-sw-cor24-pcode` is `web-dv24r`,
+`sw-markdown-checker` is `markdown-checker`, and `sw-init` is `proact`. The
+first version of this page looked only for repositories with the same name,
+and so found half of them.
+
+One fork is not a duplicate at all:
+[sw-cor24-x-assembler](https://github.com/sw-embed/sw-cor24-x-assembler) began
+as a fork of [cor24-rs](https://github.com/sw-embed/cor24-rs) and became a
+different program -- a cross-assembler library rather than an emulator -- so it
+counts as its own work.
+
+## Carried forward from an earlier account
+
+Three repositories continue work from
+[wrightmikea](https://github.com/wrightmikea), an earlier personal account
+holding 45 repositories of mine that is no longer actively managed and is not
+indexed here. The copy in these accounts is the one that counts:
+
+| Continued here | From |
+|---|---|
+| [softwarewrighter/emacs-ai-study-group](https://github.com/softwarewrighter/emacs-ai-study-group) — for sharing documents with the Emacs AI Study Group disc | [wrightmikea/emacs-ai-study-group](https://github.com/wrightmikea/emacs-ai-study-group) |
+| [softwarewrighter/viz-hrm-ft](https://github.com/softwarewrighter/viz-hrm-ft) — React app to Visualize simulated Hierarchical Reasoning  | [wrightmikea/viz-hrm-ft](https://github.com/wrightmikea/viz-hrm-ft) |
+| [sw-fun/tt-rs](https://github.com/sw-fun/tt-rs) — Yew/Rust/WASM reimagining of ToonTalk web implementation | [wrightmikea/tt-rs](https://github.com/wrightmikea/tt-rs) |
 
 Moved *within* the COR24 work the same way, from an experiment to its settled
 home in [sw-embed](https://github.com/sw-embed). Each description names its

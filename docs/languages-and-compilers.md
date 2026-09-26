@@ -2,8 +2,8 @@
 
 The reusable machinery behind the emulators, and the experimental languages that are not tied to COR24: a typed IR with an optimiser, shared ISA/codegen/target cores, a RISC-V RV32I toolchain, and several language designs of my own.
 
-**21 repositories** of 246. Part of [the index](index.md),
-which lists everything public.
+**21 repositories** of 251. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|

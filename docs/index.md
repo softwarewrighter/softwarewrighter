@@ -1,6 +1,6 @@
 # The whole index
 
-246 repositories across 15 GitHub organisations, 126 blog posts, 84 videos and
+251 repositories across 15 GitHub organisations, 126 blog posts, 84 videos and
 a browsable campus — with the map that tells you which of them is worth your
 ten minutes. The [short version](../README.md) is on the profile page; this is
 all of it.
@@ -34,19 +34,19 @@ repository. That is the whole editorial policy.
 
 ## By topic
 
-Ten pages, and each of the 246 appears on exactly one of them. The counts are
+Ten pages, and each of the 251 appears on exactly one of them. The counts are
 of repositories I wrote — public, and not forks. Forks and private work are
 excluded everywhere except the totals in
 [organisations](organizations.md), which match what GitHub shows.
 
 | Topic | Repos | What it is |
 |---|---:|---|
-| [COR24: one CPU, a dozen languages](cor24.md) | 58 | One 24-bit RISC machine, reached from assembler, C, Pascal, Forth, Lisp, APL, Prolog, Smalltalk, SNOBOL4, RPG II, FORTRAN and OCaml — most with a browser demo. |
-| [Machine learning, from scratch](machine-learning.md) | 47 | Models, training loops and a teaching language, all small enough to read. |
-| [Agents, and the tools that keep them honest](agents-and-dev-tools.md) | 28 | An agent that cannot skip a step, a checklist that fails a build, an installer that refuses a stale binary. |
-| [Apps and utilities](apps-and-utilities.md) | 24 | Working software that solves one problem each. |
+| [COR24: one CPU, a dozen languages](cor24.md) | 59 | One 24-bit RISC machine, reached from assembler, C, Pascal, Forth, Lisp, APL, Prolog, Smalltalk, SNOBOL4, RPG II, FORTRAN and OCaml — most with a browser demo. |
+| [Machine learning, from scratch](machine-learning.md) | 48 | Models, training loops and a teaching language, all small enough to read. |
+| [Agents, and the tools that keep them honest](agents-and-dev-tools.md) | 29 | An agent that cannot skip a step, a checklist that fails a build, an installer that refuses a stale binary. |
+| [Apps and utilities](apps-and-utilities.md) | 25 | Working software that solves one problem each. |
 | [Languages, compilers and instruction sets](languages-and-compilers.md) | 21 | The reusable IR, ISA and codegen machinery, plus language designs of my own. |
-| [Games and graphics](games-and-graphics.md) | 19 | Vector arcade hardware on wgpu, finished small games, visual experiments. |
+| [Games and graphics](games-and-graphics.md) | 20 | Vector arcade hardware on wgpu, finished small games, visual experiments. |
 | [Historic machines, emulated](historic-machines.md) | 18 | IBM 1130, IBM 390, RCA 1802 — emulator plus the toolchain you would have needed. |
 | [Audio, video and speech pipelines](media-pipelines.md) | 13 | The production side of the blog and the videos. |
 | [Rust in the browser](browser-and-wasm.md) | 8 | WebAssembly, Yew, and the same scene rendered six ways to compare platforms. |
@@ -115,11 +115,23 @@ The `demo-*` repositories are a separate idea rather than a state: each was
 built to learn one thing and then left where it landed, which is the point of
 them, not a defect in them.
 
-Forks are excluded from every count above, except the nine I have written
-about, which appear beside the work that cites them. Counting them and my
-private work, the 15 accounts hold more than this index shows; 247 public
-repositories are mine, and the index lists 246 of them because it does not
-index itself.
+Two rules decide what is in this index, and both are stated because both
+exclude things:
+
+- **A fork of my own work is my work.** GitHub's fork flag records which button
+  was pressed, not who wrote the code, so 14 of the 42 public forks across these
+  accounts are mine and are counted. The other 28 are other people's work I keep
+  a copy of, and are not. [Organisations](organizations.md) has the split per
+  account.
+- **Two years without a push is history, not work.** Measured today, that
+  excludes nothing here — every one of these was pushed in 2025 or 2026. It
+  draws the line against an earlier personal account,
+  [wrightmikea](https://github.com/wrightmikea), which holds 45 repositories of
+  mine and several hundred forks, is not actively managed, and is not indexed.
+  Where something there was carried forward, the copy in these accounts is the
+  one listed.
+
+Private repositories are in no count on any page.
 
 ## How this page stays true
 

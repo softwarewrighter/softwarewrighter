@@ -2,8 +2,8 @@
 
 MakerLisp's 24-bit RISC for FPGAs -- not my design, but adopted and then surrounded with toolchains, languages and an operating system. This is the largest single thread of work here: the same machine reached from assembler, C, Pascal, Forth, Lisp, APL, Prolog, Smalltalk, SNOBOL4, RPG II, FORTRAN and OCaml, most with a browser demo you can run.
 
-**58 repositories** of 246. Part of [the index](index.md),
-which lists everything public.
+**59 repositories** of 251. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -38,6 +38,7 @@ which lists everything public.
 | [sw-cor24-smalltalk](https://github.com/sw-embed/sw-cor24-smalltalk) <br><sub>sw-embed</sub> | A demo Smalltalk implemented in Tiny BASIC for COR24 ISA | Awk |
 | [sw-cor24-snobol4](https://github.com/sw-embed/sw-cor24-snobol4) <br><sub>sw-embed</sub> | Using PL/SW as SIL to implement SNOBOL4 on COR24 ISA | Shell |
 | [sw-cor24-tinyc](https://github.com/sw-embed/sw-cor24-tinyc) <br><sub>sw-embed</sub> | COR24 native C compiler written in C (runs on COR24 FPGA hardware) — future | — |
+| [sw-cor24-x-assembler](https://github.com/sw-embed/sw-cor24-x-assembler) <br><sub>sw-embed</sub> | COR24 cross-assembler library and CLI (Rust). Assembly source -> machine code; behavioural reference for the COR24 ISA. | Rust |
 | [sw-cor24-x-pc-aotc](https://github.com/sw-embed/sw-cor24-x-pc-aotc) <br><sub>sw-embed</sub> | COR24 p-code ahead-of-time cross compiler | Rust |
 | [sw-cor24-x-tinyc](https://github.com/sw-embed/sw-cor24-x-tinyc) <br><sub>sw-embed</sub> | Tiny C compiler for the COR24 FPGA soft CPU (forked from tc24r) | Rust |
 | [sw-cor24-yocto-ed](https://github.com/sw-embed/sw-cor24-yocto-ed) <br><sub>sw-embed</sub> | C-based line editor to run on COR24 ISA HW and emulator via UART to edit in-memory buffers | C |

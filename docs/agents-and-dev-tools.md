@@ -2,8 +2,8 @@
 
 What I use to build the rest of it. The through-line is process: an agent that cannot skip a step, a checklist that fails a build, an installer that refuses a stale binary.
 
-**28 repositories** of 246. Part of [the index](index.md),
-which lists everything public.
+**29 repositories** of 251. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -15,6 +15,7 @@ which lists everything public.
 | [dialog-gen](https://github.com/softwarewrighter/dialog-gen) <br><sub>softwarewrighter</sub> | Rust CLI to use LLMs to generate dialog for two speakers in a scripted scene | Rust |
 | [emacs-agent](https://github.com/softwarewrighter/emacs-agent) <br><sub>softwarewrighter</sub> | Emacs AI coding agent package | Emacs Lisp |
 | [emacs-ai-api](https://github.com/softwarewrighter/emacs-ai-api) <br><sub>softwarewrighter</sub> | Emacs configuration with Rust CLI tools for managing multiple local and cloud LLM access | Emacs Lisp |
+| [emacs-ai-study-group](https://github.com/softwarewrighter/emacs-ai-study-group) <br><sub>softwarewrighter</sub> | for sharing documents with the Emacs AI Study Group discord server | Emacs Lisp |
 | [explainer](https://github.com/softwarewrighter/explainer) <br><sub>softwarewrighter</sub> | Rust/Yew/etc tool to generate explainer videos | Shell |
 | [guardian-cli](https://github.com/softwarewrighter/guardian-cli) <br><sub>softwarewrighter</sub> | A tool that uses an LLM to enforce process/architecture during the use of an AI Coding agent | Rust |
 | [label-it](https://github.com/softwarewrighter/label-it) <br><sub>softwarewrighter</sub> | Rust CLI to generate a label to drag around the screen when recording videos | Rust |

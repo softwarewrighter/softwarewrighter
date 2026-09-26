@@ -2,8 +2,8 @@
 
 Working software that solves one problem: data apps, converters, small services and the command-line tools I actually run.
 
-**24 repositories** of 246. Part of [the index](index.md),
-which lists everything public.
+**25 repositories** of 251. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -21,6 +21,7 @@ which lists everything public.
 | [scan3data](https://github.com/softwarewrighter/scan3data) <br><sub>softwarewrighter</sub> | Yew/Rust app/tools to scan old computer listings and punch cards for use in emulator(s) | HTML |
 | [sse-chat](https://github.com/softwarewrighter/sse-chat) <br><sub>softwarewrighter</sub> | node express and React chat app to demonstrate pushing SSE | JavaScript |
 | [ssl-proxy-for-do](https://github.com/softwarewrighter/ssl-proxy-for-do) <br><sub>softwarewrighter</sub> | _no description yet_ | Shell |
+| [start-here](https://github.com/softwarewrighter/start-here) <br><sub>softwarewrighter</sub> | an overview of my work here and across my github organizations | — |
 | [styles-poc](https://github.com/softwarewrighter/styles-poc) <br><sub>softwarewrighter</sub> | Rust HTML5 styles/themes demo, using Claude Skills | CSS |
 | [sw-co24-yocto-ed](https://github.com/softwarewrighter/sw-co24-yocto-ed) <br><sub>softwarewrighter</sub> | _no description yet_ | C |
 | [ui-test-rs](https://github.com/softwarewrighter/ui-test-rs) <br><sub>softwarewrighter</sub> | A UI tesing framework for Yew-based UIs | Rust |

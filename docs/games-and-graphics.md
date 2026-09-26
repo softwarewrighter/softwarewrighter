@@ -2,8 +2,8 @@
 
 Vector arcade hardware reimagined on wgpu, a few finished small games, and the visual experiments that fed them.
 
-**19 repositories** of 246. Part of [the index](index.md),
-which lists everything public.
+**20 repositories** of 251. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -25,6 +25,7 @@ which lists everything public.
 | [xmas-rs](https://github.com/softwarewrighter/xmas-rs) <br><sub>softwarewrighter</sub> | lights | Rust |
 | [favicon](https://github.com/sw-cli-tools/favicon) <br><sub>sw-cli-tools</sub> | generates simple favicons from specified text and colors | Emacs Lisp |
 | [sudoku](https://github.com/sw-fun/sudoku) <br><sub>sw-fun</sub> | A Rust/WASM Sudoku game | Rust |
+| [tt-rs](https://github.com/sw-fun/tt-rs) <br><sub>sw-fun</sub> | Yew/Rust/WASM reimagining of ToonTalk web implementation | Rust |
 | [svg-combat-rs](https://github.com/sw-game-dev/svg-combat-rs) <br><sub>sw-game-dev</sub> | Rust web-sys wasm-bindgen interactive SVG web game | Rust |
 
 ---

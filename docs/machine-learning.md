@@ -2,8 +2,8 @@
 
 Models, training loops and a teaching language, all small enough to read. The rule across this group is that nothing is a wrapper around somebody else's framework: if it learns, the learning is in the repository.
 
-**47 repositories** of 246. Part of [the index](index.md),
-which lists everything public.
+**48 repositories** of 251. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -28,6 +28,7 @@ which lists everything public.
 | [train-trm](https://github.com/softwarewrighter/train-trm) <br><sub>softwarewrighter</sub> | Yew/Rust/WASM/CLI that implement Tiny Recursive Model training | Rust |
 | [try-langchain-rust](https://github.com/softwarewrighter/try-langchain-rust) <br><sub>softwarewrighter</sub> | Demo langchain-rust use-cases | Rust |
 | [try-rig](https://github.com/softwarewrighter/try-rig) <br><sub>softwarewrighter</sub> | Rust AI coding tools demos | Rust |
+| [viz-hrm-ft](https://github.com/softwarewrighter/viz-hrm-ft) <br><sub>softwarewrighter</sub> | React app to Visualize simulated Hierarchical Reasoning Model Fine Tuning (BabyAI) | TypeScript |
 | [umap](https://github.com/sw-audio-viz/umap) <br><sub>sw-audio-viz</sub> | Rust CLI to visualize dimension redirection via UMAP | Rust |
 | [cat-finder](https://github.com/sw-ml-study/cat-finder) <br><sub>sw-ml-study</sub> | Find all the cat photos in your photo library using local AI object detection | Rust |
 | [demo-abstract-algebra](https://github.com/sw-ml-study/demo-abstract-algebra) <br><sub>sw-ml-study</sub> | sw-mlpl based visualizations of abstract algebra concepts | Shell |
