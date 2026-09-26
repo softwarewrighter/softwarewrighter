@@ -1,0 +1,23 @@
+{
+ "counts": {
+  "cor24": 58,
+  "historic-machines": 18,
+  "languages-and-compilers": 20,
+  "machine-learning": 45,
+  "agents-and-dev-tools": 28,
+  "browser-and-wasm": 8,
+  "games-and-graphics": 19,
+  "media-pipelines": 13,
+  "embedded-and-hardware": 4,
+  "apps-and-utilities": 23
+ },
+ "total": 242,
+ "writing": [
+  "blog",
+  "blog",
+  "software-wrighter-lab.github.io",
+  "sw-atlas",
+  "sw-campus",
+  "demos"
+ ]
+}
