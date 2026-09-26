@@ -2,7 +2,7 @@
 
 Fifteen GitHub accounts, because the work splits cleanly and a single
 account with hundreds of repositories is a wall, not an index. To browse by
-subject instead of by owner, start from [the topic list](../README.md#by-topic);
+subject instead of by owner, start from [the topic list](index.md#by-topic);
 the topics cross organisation boundaries where the work does.
 
 **Mine** counts repositories I wrote. **Forks** are other people's work I
@@ -34,4 +34,4 @@ them, on the topic pages; the rest are listed nowhere but here.
 
 ---
 
-Back to [Start Here](../README.md).
+Back to [the index](index.md).

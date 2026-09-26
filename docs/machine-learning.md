@@ -2,8 +2,8 @@
 
 Models, training loops and a teaching language, all small enough to read. The rule across this group is that nothing is a wrapper around somebody else's framework: if it learns, the learning is in the repository.
 
-**47 repositories** of 246. Part of [Start Here](../README.md),
-the index to everything public.
+**47 repositories** of 246. Part of [the index](index.md),
+which lists everything public.
 
 | Repository | What it is | Language |
 |---|---|---|

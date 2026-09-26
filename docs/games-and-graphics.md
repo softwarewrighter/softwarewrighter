@@ -2,8 +2,8 @@
 
 Vector arcade hardware reimagined on wgpu, a few finished small games, and the visual experiments that fed them.
 
-**19 repositories** of 246. Part of [Start Here](../README.md),
-the index to everything public.
+**19 repositories** of 246. Part of [the index](index.md),
+which lists everything public.
 
 | Repository | What it is | Language |
 |---|---|---|

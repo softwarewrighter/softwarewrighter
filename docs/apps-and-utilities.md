@@ -2,8 +2,8 @@
 
 Working software that solves one problem: data apps, converters, small services and the command-line tools I actually run.
 
-**24 repositories** of 246. Part of [Start Here](../README.md),
-the index to everything public.
+**24 repositories** of 246. Part of [the index](index.md),
+which lists everything public.
 
 | Repository | What it is | Language |
 |---|---|---|

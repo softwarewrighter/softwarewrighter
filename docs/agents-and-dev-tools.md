@@ -2,8 +2,8 @@
 
 What I use to build the rest of it. The through-line is process: an agent that cannot skip a step, a checklist that fails a build, an installer that refuses a stale binary.
 
-**28 repositories** of 246. Part of [Start Here](../README.md),
-the index to everything public.
+**28 repositories** of 246. Part of [the index](index.md),
+which lists everything public.
 
 | Repository | What it is | Language |
 |---|---|---|

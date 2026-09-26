@@ -2,8 +2,8 @@
 
 The production side of the blog and the videos: text to speech, speech to video, MIDI, and the pipelines that stitch a finished episode together.
 
-**13 repositories** of 246. Part of [Start Here](../README.md),
-the index to everything public.
+**13 repositories** of 246. Part of [the index](index.md),
+which lists everything public.
 
 | Repository | What it is | Language |
 |---|---|---|

@@ -168,4 +168,4 @@ For anything that matters, **transfer**, do not fork-and-leave:
 
 ---
 
-Back to [Start Here](../README.md).
+Back to [the index](index.md).
