@@ -2,8 +2,8 @@
 
 MakerLisp's 24-bit RISC for FPGAs -- not my design, but adopted and then surrounded with toolchains, languages and an operating system. This is the largest single thread of work here: the same machine reached from assembler, C, Pascal, Forth, Lisp, APL, Prolog, Smalltalk, SNOBOL4, RPG II, FORTRAN and OCaml, most with a browser demo you can run.
 
-**58 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**58 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -68,5 +68,6 @@ MakerLisp's 24-bit RISC for FPGAs -- not my design, but adopted and then surroun
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

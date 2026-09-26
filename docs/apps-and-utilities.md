@@ -2,8 +2,8 @@
 
 Working software that solves one problem: data apps, converters, small services and the command-line tools I actually run.
 
-**23 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**24 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -24,6 +24,7 @@ Working software that solves one problem: data apps, converters, small services 
 | [styles-poc](https://github.com/softwarewrighter/styles-poc) <br><sub>softwarewrighter</sub> | Rust HTML5 styles/themes demo, using Claude Skills | CSS |
 | [sw-co24-yocto-ed](https://github.com/softwarewrighter/sw-co24-yocto-ed) <br><sub>softwarewrighter</sub> | _no description yet_ | C |
 | [ui-test-rs](https://github.com/softwarewrighter/ui-test-rs) <br><sub>softwarewrighter</sub> | A UI tesing framework for Yew-based UIs | Rust |
+| [wordcloud](https://github.com/softwarewrighter/wordcloud) <br><sub>softwarewrighter</sub> | Rust CLI to generate wordcloud images | Rust |
 | [fuzzit](https://github.com/sw-cli-tools/fuzzit) <br><sub>sw-cli-tools</sub> | Fuzz testing tool | Rust |
 | [pjmai-rs](https://github.com/sw-cli-tools/pjmai-rs) <br><sub>sw-cli-tools</sub> | Project Management Tool for AI Agents and Humans | Rust |
 | [reg-rs](https://github.com/sw-cli-tools/reg-rs) <br><sub>sw-cli-tools</sub> | CLI Regression Test Tool | Rust |
@@ -33,5 +34,6 @@ Working software that solves one problem: data apps, converters, small services 
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

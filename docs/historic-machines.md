@@ -2,8 +2,8 @@
 
 Real computers from the 1960s and 70s, reimplemented in Rust so they run in a browser: the IBM 1130, the IBM 390, the RCA 1802. Each one is an emulator plus the toolchain you would have needed to program it.
 
-**18 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**18 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -28,5 +28,6 @@ Real computers from the 1960s and 70s, reimplemented in Rust so they run in a br
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

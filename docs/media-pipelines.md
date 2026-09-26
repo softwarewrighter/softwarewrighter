@@ -2,8 +2,8 @@
 
 The production side of the blog and the videos: text to speech, speech to video, MIDI, and the pipelines that stitch a finished episode together.
 
-**13 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**13 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -23,5 +23,6 @@ The production side of the blog and the videos: text to speech, speech to video,
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

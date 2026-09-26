@@ -2,8 +2,8 @@
 
 What I use to build the rest of it. The through-line is process: an agent that cannot skip a step, a checklist that fails a build, an installer that refuses a stale binary.
 
-**28 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**28 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -38,5 +38,6 @@ What I use to build the rest of it. The through-line is process: an agent that c
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

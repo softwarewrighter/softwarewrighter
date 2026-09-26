@@ -5,23 +5,30 @@ graduates to an organisation once it is clearly one thing. This page is the
 ledger of that traffic, so a visitor who finds two copies of a repository knows
 which one is alive.
 
-Three states: **moved**, **queued** and **staying**. The moved rows are
-verified; the queued rows are intentions, and an intention is not a promise.
+Everything below is read from the GitHub API: names, descriptions, fork flags
+and push dates. Nothing is read from my machine, so what this page claims is
+what a visitor can check.
 
-## Moved, and how to tell
+## Two copies, and which is live
 
-These moved by *forking into the organisation and leaving the original behind*,
-which is worth knowing because GitHub then marks the live copy as a fork and
-the abandoned copy as the source. My working copy tracks the organisation one.
-The original stays only as history; prefer the organisation copy.
+These were moved by *forking into the organisation and leaving the original
+behind*, so GitHub marks the live copy as a fork and the abandoned copy as the
+source. Prefer the organisation copy. `Last push` is the only public evidence
+of which one is still being worked on, and where it disagrees with that advice
+the row says so.
 
-| What | Live copy | Left behind |
-|---|---|---|
-| Rust CLI for AI Coding Agents to check if a project conforms to the Software Wrighter project checklist | [sw-vibe-coding/sw-checklist](https://github.com/sw-vibe-coding/sw-checklist) | [softwarewrighter/sw-checklist](https://github.com/softwarewrighter/sw-checklist) |
-| Rust CLI to install a Rust release binary (or debug binary) in a local bin dir on the path. | [sw-vibe-coding/sw-install](https://github.com/sw-vibe-coding/sw-install) | [softwarewrighter/sw-install](https://github.com/softwarewrighter/sw-install) |
-| Rust library for CLI common/shared code | [sw-cli-tools/sw-cli](https://github.com/sw-cli-tools/sw-cli) | [softwarewrighter/sw-cli](https://github.com/softwarewrighter/sw-cli) |
-| Rust CLI "personal software" tool to rank wav files from "best" to "worst" subjectively/algorithmically | [sw-cli-tools/rank-wav-rs](https://github.com/sw-cli-tools/rank-wav-rs) | [softwarewrighter/rank-wav-rs](https://github.com/softwarewrighter/rank-wav-rs) |
-| A Proof of Concept game that provides an MCP server for AI Agent to play the game | [sw-game-dev/game-mcp-poc](https://github.com/sw-game-dev/game-mcp-poc) | [softwarewrighter/game-mcp-poc](https://github.com/softwarewrighter/game-mcp-poc) |
+| Repository | In an organisation | In `softwarewrighter` | Last push |
+|---|---|---|---|
+| game-mcp-poc — A Proof of Concept game that provides an MCP server for AI Agent to play the game | [sw-game-dev](https://github.com/sw-game-dev/game-mcp-poc) (fork) | [softwarewrighter](https://github.com/softwarewrighter/game-mcp-poc) | the organisation copy |
+| rank-wav-rs — Rust CLI "personal software" tool to rank wav files from "best" to "worst" subjectively/algorithmically | [sw-cli-tools](https://github.com/sw-cli-tools/rank-wav-rs) | not there; the second copy is [sw-music-tools](https://github.com/sw-music-tools/rank-wav-rs) (fork) | 2026-03-07 |
+| sw-checklist — Rust CLI for AI Coding Agents to check if a project conforms to the Software Wrighter project checklist | [sw-vibe-coding](https://github.com/sw-vibe-coding/sw-checklist) (fork) | [softwarewrighter](https://github.com/softwarewrighter/sw-checklist) | the organisation copy |
+| sw-cli — Rust library for CLI common/shared code | [sw-cli-tools](https://github.com/sw-cli-tools/sw-cli) (fork) | [softwarewrighter](https://github.com/softwarewrighter/sw-cli) | the organisation copy |
+| sw-install — Rust CLI to install a Rust release binary (or debug binary) in a local bin dir on the path. | [sw-vibe-coding](https://github.com/sw-vibe-coding/sw-install) (fork) | [softwarewrighter](https://github.com/softwarewrighter/sw-install) | **the `softwarewrighter` copy (2026-03-22)** |
+
+`rank-wav-rs` is the odd one out: it never lived in `softwarewrighter`. The
+copy in [sw-cli-tools](https://github.com/sw-cli-tools/rank-wav-rs) is the
+original and the one in `sw-music-tools` is the fork, so that pair is a
+cross-organisation duplicate rather than a graduation.
 
 Moved *within* the COR24 work the same way, from an experiment to its settled
 home in [sw-embed](https://github.com/sw-embed). Each description names its
@@ -37,8 +44,8 @@ ancestor, which is the only trail a fork leaves:
 ## Queued to move
 
 Still in `softwarewrighter`, and all of it belongs somewhere more specific.
-Listed so the intent is public; the link will keep working either way, because
-a transfer redirects.
+Listed so the intent is public. A transfer redirects, so the links here will
+keep working after a move.
 
 ### → `sw-embed`
 
@@ -72,6 +79,7 @@ Machine learning built from scratch.
 | [mHC-poc](https://github.com/softwarewrighter/mHC-poc) | explain/demo mHC paper using Apple Silicon and Nvidia GPUs |
 | [many-eyes-learning](https://github.com/softwarewrighter/many-eyes-learning) | Structured exploration for better learning under sparse rewards. |
 | [micro-rlm-lab-py](https://github.com/softwarewrighter/micro-rlm-lab-py) | An executable-design proof-of-concept toy RLM sandbox |
+| [microgpt-mlpl](https://github.com/softwarewrighter/microgpt-mlpl) | sw-MLPL reimplementation of Karpathy's microgpt.py and my microgpt-rs |
 | [microgpt-rs](https://github.com/softwarewrighter/microgpt-rs) | Karpathy-microgpt.py inspired Rust CPU, MLX Apple GPU, and CUDA Nvidia GPU PoC |
 | [mlplunit](https://github.com/softwarewrighter/mlplunit) | a JUNIT-inspired unit test framework for sw-MLPL |
 | [multi-hop-reasoning](https://github.com/softwarewrighter/multi-hop-reasoning) | Proof-of-concept for recent Princeton paper on multi-hop-reasoning |
@@ -93,6 +101,7 @@ One job, one command.
 | [markdown-checker](https://github.com/softwarewrighter/markdown-checker) | Rust CLI to ensure markdown files can be displayed properly |
 | [modularizer](https://github.com/softwarewrighter/modularizer) | Rust AI tool to refactor projects to be more modular, follow conventions, loosen coupling, use patterns |
 | [pdf2md](https://github.com/softwarewrighter/pdf2md) | Rust CLI to extract text from a PDF to create a similar markdown file. |
+| [wordcloud](https://github.com/softwarewrighter/wordcloud) | Rust CLI to generate wordcloud images |
 
 ### → `sw-video-tools / sw-music-tools`
 
@@ -128,7 +137,7 @@ Games and playable things.
 
 ### → `a vectorcade org, or sw-game-dev`
 
-The vector-arcade project, five repositories and a shared crate.
+The vector-arcade project, six repositories and a shared crate.
 
 | Repository | What it is |
 |---|---|
@@ -138,18 +147,6 @@ The vector-arcade project, five repositories and a shared crate.
 | [vectorcade-render-wgpu](https://github.com/softwarewrighter/vectorcade-render-wgpu) | WGPU renderer for Vector Arcade platform |
 | [vectorcade-shared](https://github.com/softwarewrighter/vectorcade-shared) | Shared library for Vector Arcade platform |
 | [vectorcade-web-yew](https://github.com/softwarewrighter/vectorcade-web-yew) | Yew web shell for Vector Arcade platform |
-
-## Not in the public index yet
-
-On my machine and not in the 2026-09-19 snapshot this page is built from,
-either because they are private or because they are newer than the snapshot.
-They will appear here when the index is refreshed:
-
-`wordcloud`, `creep-forge`, `fluent-fork`, `microgpt-mlpl`, `shorts`,
-`video-publishing`, `whimsical-TD`, `MesaOS`, `tower-forge`,
-`iso_anim_testbed`, `style-in-out` (softwarewrighter); `sw-lab`,
-`blog-planning` (software-wrighter-lab); `m-poc`, `sw-apl-workspaces`
-(sw-ml-study, sw-vibe-coding).
 
 ## Staying in `softwarewrighter`
 
@@ -163,8 +160,8 @@ For anything that matters, **transfer**, do not fork-and-leave:
 
 - A transfer moves stars, issues, forks and history, and GitHub redirects the
   old URL, including `git` remotes, so nothing that links to it breaks.
-- A fork-and-leave produces the two-copies problem in the first table: the
-  live copy is flagged a fork, automated indexes pick the wrong one, and the
+- A fork-and-leave produces the two-copies problem in the first table: the live
+  copy is flagged a fork, automated indexes pick the abandoned one, and the
   only record of the relationship is a sentence in a description.
 - If a fork-and-leave has already happened, archive the abandoned copy and put
   the live URL in its description. Archiving is reversible; deleting is not.

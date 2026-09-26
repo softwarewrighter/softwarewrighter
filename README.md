@@ -1,8 +1,8 @@
 # Start Here
 
-**A guided index to everything I build in public.** 242 repositories across 15
-GitHub organisations, 126 blog posts, 84 videos and a browsable campus — with
-the map that tells you which of them is worth your ten minutes.
+**A guided index to everything I build in public.** 246 repositories across
+15 GitHub organisations, 126 blog posts, 84 videos and a browsable campus —
+with the map that tells you which of them is worth your ten minutes.
 
 Most of this is one of three long projects, so if you read nothing else, read
 the three paragraphs under [The through-lines](#the-through-lines).
@@ -33,15 +33,18 @@ repository. That is the whole editorial policy.
 
 ## By topic
 
-Ten pages, and every non-fork repository appears on exactly one of them.
+Ten pages, and each of the 246 appears on exactly one of them. The counts are
+of repositories I wrote — public, and not forks. Forks and private work are
+excluded everywhere except the totals in
+[organisations](docs/organizations.md), which match what GitHub shows.
 
 | Topic | Repos | What it is |
 |---|---:|---|
 | [COR24: one CPU, a dozen languages](docs/cor24.md) | 58 | One 24-bit RISC machine, reached from assembler, C, Pascal, Forth, Lisp, APL, Prolog, Smalltalk, SNOBOL4, RPG II, FORTRAN and OCaml — most with a browser demo. |
-| [Machine learning, from scratch](docs/machine-learning.md) | 45 | Models, training loops and a teaching language, all small enough to read. |
+| [Machine learning, from scratch](docs/machine-learning.md) | 47 | Models, training loops and a teaching language, all small enough to read. |
 | [Agents, and the tools that keep them honest](docs/agents-and-dev-tools.md) | 28 | An agent that cannot skip a step, a checklist that fails a build, an installer that refuses a stale binary. |
-| [Apps and utilities](docs/apps-and-utilities.md) | 23 | Working software that solves one problem each. |
-| [Languages, compilers and instruction sets](docs/languages-and-compilers.md) | 20 | The reusable IR, ISA and codegen machinery, plus language designs of my own. |
+| [Apps and utilities](docs/apps-and-utilities.md) | 24 | Working software that solves one problem each. |
+| [Languages, compilers and instruction sets](docs/languages-and-compilers.md) | 21 | The reusable IR, ISA and codegen machinery, plus language designs of my own. |
 | [Games and graphics](docs/games-and-graphics.md) | 19 | Vector arcade hardware on wgpu, finished small games, visual experiments. |
 | [Historic machines, emulated](docs/historic-machines.md) | 18 | IBM 1130, IBM 390, RCA 1802 — emulator plus the toolchain you would have needed. |
 | [Audio, video and speech pipelines](docs/media-pipelines.md) | 13 | The production side of the blog and the videos. |
@@ -98,7 +101,7 @@ click rather than clone.
 
 ## Honest status
 
-Not all 242 of these are finished, and the ones that are not say so. A
+Not all of these are finished, and the ones that are not say so. A
 repository here is in one of four states, and the index in
 [sw-atlas](https://github.com/software-wrighter-lab/sw-atlas) records which:
 
@@ -112,7 +115,10 @@ built to learn one thing and then left where it landed, which is the point of
 them, not a defect in them.
 
 Forks are excluded from every count above, except the nine I have written
-about, which appear beside the work that cites them.
+about, which appear beside the work that cites them. Counting them and my
+private work, the 15 accounts hold more than this index shows; 247 public
+repositories are mine, and the index lists 246 of them because it does not
+index itself.
 
 ## How this page stays true
 
@@ -123,5 +129,6 @@ the pages under `docs/` are rendered from it. That is why the counts in the
 tables agree with each other: if they ever stop agreeing, the generator is
 broken and a build fails.
 
-<sub>Counts from the GitHub API, cached 2026-09-19. Regenerate with the
-`sw-atlas` hub recipe.</sub>
+<sub>Counts from the GitHub API, read live on 2026-09-26, for the 15 accounts
+listed in [organisations](docs/organizations.md). Regenerated, not
+hand-counted.</sub>

@@ -2,8 +2,8 @@
 
 Models, training loops and a teaching language, all small enough to read. The rule across this group is that nothing is a wrapper around somebody else's framework: if it learns, the learning is in the repository.
 
-**45 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**47 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -13,9 +13,10 @@ Models, training loops and a teaching language, all small enough to read. The ru
 | [efficient-llm](https://github.com/softwarewrighter/efficient-llm) <br><sub>softwarewrighter</sub> | demo of frontier | Python |
 | [engram-poc](https://github.com/softwarewrighter/engram-poc) <br><sub>softwarewrighter</sub> | implementations demonstrating Deepseek's Engram paper | Python |
 | [local-llm-loop](https://github.com/softwarewrighter/local-llm-loop) <br><sub>softwarewrighter</sub> | A Rust CLI that uses a high level local LLM to manage low level LLM tool using calls to achieve a goal. | Rust |
-| [mHC-poc](https://github.com/softwarewrighter/mHC-poc) <br><sub>softwarewrighter</sub> | explain/demo mHC paper using Apple Silicon and Nvidia GPUs | Python |
 | [many-eyes-learning](https://github.com/softwarewrighter/many-eyes-learning) <br><sub>softwarewrighter</sub> | Structured exploration for better learning under sparse rewards. | Makefile |
+| [mHC-poc](https://github.com/softwarewrighter/mHC-poc) <br><sub>softwarewrighter</sub> | explain/demo mHC paper using Apple Silicon and Nvidia GPUs | Python |
 | [micro-rlm-lab-py](https://github.com/softwarewrighter/micro-rlm-lab-py) <br><sub>softwarewrighter</sub> | An executable-design proof-of-concept toy RLM sandbox | HTML |
+| [microgpt-mlpl](https://github.com/softwarewrighter/microgpt-mlpl) <br><sub>softwarewrighter</sub> | sw-MLPL reimplementation of Karpathy's microgpt.py and my microgpt-rs | HTML |
 | [microgpt-rs](https://github.com/softwarewrighter/microgpt-rs) <br><sub>softwarewrighter</sub> | Karpathy-microgpt.py inspired Rust CPU, MLX Apple GPU, and CUDA Nvidia GPU PoC | Rust |
 | [mlplunit](https://github.com/softwarewrighter/mlplunit) <br><sub>softwarewrighter</sub> | a JUNIT-inspired unit test framework for sw-MLPL | Shell |
 | [multi-hop-reasoning](https://github.com/softwarewrighter/multi-hop-reasoning) <br><sub>softwarewrighter</sub> | Proof-of-concept for recent Princeton paper on multi-hop-reasoning | Python |
@@ -46,6 +47,7 @@ Models, training loops and a teaching language, all small enough to read. The ru
 | [demo-ml-utils](https://github.com/sw-ml-study/demo-ml-utils) <br><sub>sw-ml-study</sub> | demonstrate ML utitities using sw-mlpl | Shell |
 | [demo-mlpl-libraries](https://github.com/sw-ml-study/demo-mlpl-libraries) <br><sub>sw-ml-study</sub> | sw-mlpl libraries written in sw-mlpl, with demos, tests, docs | Shell |
 | [emufpga](https://github.com/sw-ml-study/emufpga) <br><sub>sw-ml-study</sub> | Rust project to emulate FPGA concepts for ML, inference with less RAM | Rust |
+| [m-poc](https://github.com/sw-ml-study/m-poc) <br><sub>sw-ml-study</sub> | future ML language visualization Proof-of-Concept | JavaScript |
 | [ml-viz](https://github.com/sw-ml-study/ml-viz) <br><sub>sw-ml-study</sub> | Machine Learning visualization tools | Rust |
 | [mlpl-live](https://github.com/sw-ml-study/mlpl-live) <br><sub>sw-ml-study</sub> | the stable/released version of ../sw-mlpl visible at https://mlpl.softwarewrighter.com | JavaScript |
 | [moe-microscope](https://github.com/sw-ml-study/moe-microscope) <br><sub>sw-ml-study</sub> | An sw-MLPL demo repo to show how to build an introspectable tiny MoE from scratch | Shell |
@@ -55,5 +57,6 @@ Models, training loops and a teaching language, all small enough to read. The ru
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

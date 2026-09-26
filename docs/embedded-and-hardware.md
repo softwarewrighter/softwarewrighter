@@ -2,8 +2,8 @@
 
 Where the software meets a board: an FPGA soft CPU, an ESP32 carrier, bench instruments driven over SCPI, and the circuits that go with them.
 
-**4 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**4 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -14,5 +14,6 @@ Where the software meets a board: an FPGA soft CPU, an ESP32 carrier, bench inst
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.

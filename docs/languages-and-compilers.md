@@ -2,8 +2,8 @@
 
 The reusable machinery behind the emulators, and the experimental languages that are not tied to COR24: a typed IR with an optimiser, shared ISA/codegen/target cores, a RISC-V RV32I toolchain, and several language designs of my own.
 
-**20 repositories** of 242. Part of
-[Start Here](../README.md), the index to everything public.
+**21 repositories** of 246. Part of [Start Here](../README.md),
+the index to everything public.
 
 | Repository | What it is | Language |
 |---|---|---|
@@ -25,10 +25,12 @@ The reusable machinery behind the emulators, and the experimental languages that
 | [nt-rs](https://github.com/sw-vibe-coding/nt-rs) <br><sub>sw-vibe-coding</sub> | Neural Thickets in Rust: RandOpt-style local expert discovery via parameter perturbation | Rust |
 | [rust-to-prolog](https://github.com/sw-vibe-coding/rust-to-prolog) <br><sub>sw-vibe-coding</sub> | An intermediate implementation of Prolog (in Rust) to be ported to COR24 (in PL/SW and SNOBOL4) | Rust |
 | [sw-apl](https://github.com/sw-vibe-coding/sw-apl) <br><sub>sw-vibe-coding</sub> | Software Wrighter's APL in Rust | Rust |
+| [sw-apl-workspaces](https://github.com/sw-vibe-coding/sw-apl-workspaces) <br><sub>sw-vibe-coding</sub> | educational workspaces for ../sw-apl | Witcher Script |
 | [tuplet](https://github.com/sw-vibe-coding/tuplet) <br><sub>sw-vibe-coding</sub> | A named tuple infix PL implemented in OCaml with a FORTH runtime | OCaml |
 | [tuplet-rs](https://github.com/sw-vibe-coding/tuplet-rs) <br><sub>sw-vibe-coding</sub> | A Rust-based implementation of an experimental tuple-first language, Tuplet | Rust |
 
 ---
 
-Counts and descriptions come from the GitHub API, cached and regenerated;
-see [conventions](conventions.md) for how to read a repository name.
+Counts are of repositories I wrote: public, and not forks. See
+[conventions](conventions.md) for how to read a repository name, and
+[organisations](organizations.md) for the same repositories grouped by owner.
