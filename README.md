@@ -16,7 +16,7 @@ in the repository.
 
 ### → [The whole index](docs/index.md)
 
-251 public repositories across 15 organisations, grouped by topic, with
+251 public repositories across 15 organizations, grouped by topic, with
 [how to read a repository name](docs/conventions.md) and
 [which copy is the live one](docs/in-flight.md) where a project has moved.
 

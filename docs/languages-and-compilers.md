@@ -1,6 +1,6 @@
 # Languages, compilers and instruction sets
 
-The reusable machinery behind the emulators, and the experimental languages that are not tied to COR24: a typed IR with an optimiser, shared ISA/codegen/target cores, a RISC-V RV32I toolchain, and several language designs of my own.
+The reusable machinery behind the emulators, and the experimental languages that are not tied to COR24: a typed IR with an optimizer, shared ISA/codegen/target cores, a RISC-V RV32I toolchain, and several language designs of my own.
 
 **21 repositories** of 251. Part of [Start Here](../README.md),
 the index to everything public.
@@ -33,4 +33,4 @@ the index to everything public.
 
 Counts are of repositories I wrote: public, and not forks. See
 [conventions](conventions.md) for how to read a repository name, and
-[organisations](organizations.md) for the same repositories grouped by owner.
+[organizations](organizations.md) for the same repositories grouped by owner.

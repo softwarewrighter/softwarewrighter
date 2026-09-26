@@ -1,6 +1,6 @@
 # The whole index
 
-251 repositories across 15 GitHub organisations, 126 blog posts, 84 videos and
+251 repositories across 15 GitHub organizations, 126 blog posts, 84 videos and
 a browsable campus — with the map that tells you which of them is worth your
 ten minutes. The [short version](../README.md) is on the profile page; this is
 all of it.
@@ -37,7 +37,7 @@ repository. That is the whole editorial policy.
 Ten pages, and each of the 251 appears on exactly one of them. The counts are
 of repositories I wrote — public, and not forks. Forks and private work are
 excluded everywhere except the totals in
-[organisations](organizations.md), which match what GitHub shows.
+[organizations](organizations.md), which match what GitHub shows.
 
 | Topic | Repos | What it is |
 |---|---:|---|
@@ -52,11 +52,11 @@ excluded everywhere except the totals in
 | [Rust in the browser](browser-and-wasm.md) | 8 | WebAssembly, Yew, and the same scene rendered six ways to compare platforms. |
 | [Embedded and hardware](embedded-and-hardware.md) | 4 | FPGA soft CPUs, an ESP32 carrier, bench instruments over SCPI. |
 
-Also: [the 15 organisations](organizations.md) and what each is for;
+Also: [the 15 organizations](organizations.md) and what each is for;
 [how to read a repository name](conventions.md) — the names are a code,
 and once you know it, `tf24a` and `web-tml24c` stop being noise; and
 [what is in flight](in-flight.md) — what started in `softwarewrighter`,
-what has moved to an organisation, and which copy is the live one when there
+what has moved to an organization, and which copy is the live one when there
 are two.
 
 ## The through-lines
@@ -121,7 +121,7 @@ exclude things:
 - **A fork of my own work is my work.** GitHub's fork flag records which button
   was pressed, not who wrote the code, so 14 of the 42 public forks across these
   accounts are mine and are counted. The other 28 are other people's work I keep
-  a copy of, and are not. [Organisations](organizations.md) has the split per
+  a copy of, and are not. [Organizations](organizations.md) has the split per
   account.
 - **Two years without a push is history, not work.** Measured today, that
   excludes nothing here — every one of these was pushed in 2025 or 2026. It
@@ -143,5 +143,5 @@ tables agree with each other: if they ever stop agreeing, the generator is
 broken and a build fails.
 
 <sub>Counts from the GitHub API, read live on 2026-09-26, for the 15 accounts
-listed in [organisations](organizations.md). Regenerated, not
+listed in [organizations](organizations.md). Regenerated, not
 hand-counted.</sub>

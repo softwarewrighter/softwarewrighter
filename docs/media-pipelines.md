@@ -25,4 +25,4 @@ the index to everything public.
 
 Counts are of repositories I wrote: public, and not forks. See
 [conventions](conventions.md) for how to read a repository name, and
-[organisations](organizations.md) for the same repositories grouped by owner.
+[organizations](organizations.md) for the same repositories grouped by owner.

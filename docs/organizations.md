@@ -1,24 +1,24 @@
-# Organisations
+# Organizations
 
 Fifteen GitHub accounts, because the work splits cleanly and a single
 account with hundreds of repositories is a wall, not an index. To browse by
 subject instead of by owner, start from [the topic list](../README.md#by-topic);
-the topics cross organisation boundaries where the work does.
+the topics cross organization boundaries where the work does.
 
 **Mine** counts repositories I wrote. **Forks** are other people's work I
-keep a copy of, and **Total** is what you will see on the organisation's own
+keep a copy of, and **Total** is what you will see on the organization's own
 page, so the two agree. Private repositories are in none of these numbers.
 
 GitHub's own fork flag cannot be used for that split: it records which button
 was pressed, not who wrote the code, so moving my own work into an
-organisation by forking it marks my work as somebody else's forever. Of the 42
+organization by forking it marks my work as somebody else's forever. Of the 42
 public forks across these accounts, 14 are forks of my own work and are
 counted as mine here. The columns below classify by who owns the parent
 repository, which is the question that was actually being asked.
 
-| Organisation | Mine | Forks | Total | What lives there |
+| Organization | Mine | Forks | Total | What lives there |
 |---|---:|---:|---:|---|
-| [softwarewrighter](https://github.com/softwarewrighter) | 108 | 16 | 124 | The main account. Anything that has not earned its own organisation lives here, plus everything still on its way out. |
+| [softwarewrighter](https://github.com/softwarewrighter) | 108 | 16 | 124 | The main account. Anything that has not earned its own organization lives here, plus everything still on its way out. |
 | [sw-embed](https://github.com/sw-embed) | 47 | 1 | 48 | Software for embedded targets: operating systems, language ports and toolchains, target by target. COR24 is the first and most of it today; RISC-V is here too, with ESP32-xx, Lychee boards and ARM next. |
 | [sw-ml-study](https://github.com/sw-ml-study) | 25 | 10 | 35 | Machine learning studied by building it, including the sw-MLPL teaching language. |
 | [sw-vibe-coding](https://github.com/sw-vibe-coding) | 25 | 0 | 25 | Experimental languages and agent-built projects: where a language idea goes before it settles. |
@@ -32,7 +32,7 @@ repository, which is the question that was actually being asked.
 | [sw-video-tools](https://github.com/sw-video-tools) | 1 | 0 | 1 | Video production pipelines. |
 | [sw-music-tools](https://github.com/sw-music-tools) | 1 | 0 | 1 | Music and audio tooling. |
 | [sw-emacs](https://github.com/sw-emacs) | 1 | 0 | 1 | Emacs packages and experiments. |
-| [sw-audio-viz](https://github.com/sw-audio-viz) | 1 | 0 | 1 | Audio visualisation and dimensionality reduction. |
+| [sw-audio-viz](https://github.com/sw-audio-viz) | 1 | 0 | 1 | Audio visualization and dimensionality reduction. |
 | **Total** | **261** | **28** | **289** | |
 
 Ten of those 261 are second copies of work counted in another row -- moved

@@ -1,7 +1,7 @@
 # In flight
 
 Work here starts in [softwarewrighter](https://github.com/softwarewrighter) and
-graduates to an organisation once it is clearly one thing. This page is the
+graduates to an organization once it is clearly one thing. This page is the
 ledger of that traffic, so a visitor who finds two copies of a repository knows
 which one is alive.
 
@@ -179,7 +179,7 @@ The vector-arcade project, six repositories and a shared crate.
 
 Some things have no better home and do not need one: one-off experiments, the
 `try-*` evaluations, `demo-claude-mem`, `avoid-compaction`, `placeholder`. A
-repository does not need an organisation to be finished.
+repository does not need an organization to be finished.
 
 ## How a move is done here
 
